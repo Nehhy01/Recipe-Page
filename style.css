@@ -81,6 +81,11 @@ li {
   padding-left: 1rem;
 }
 
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
 .preparation {
   background-color: hsl(330, 100%, 98%);
   border-radius: 5px;
